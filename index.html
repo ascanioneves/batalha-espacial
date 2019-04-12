@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Batalha Espacial</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style type="text/css">
+		#h1{
+			color: green;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+		}
+		#h2{
+			color: green;
+			position: absolute;
+			top: 50px;
+			left: 5px;
+			font-size: 19px;
+		}
+		#h3{
+			color: green;
+			position: absolute;
+			top: 75px;
+			left: 5px;
+			font-size: 25px;
+		}
+		#h4{
+			color: green;
+			position: absolute;
+			top: 300px;
+			left: 5px;
+			font-size: 24px;	
+		}
+		#photo{
+			position: absolute;
+			top: 150px;
+			left: 120px;
+			height: 150px;
+			width: 150px;
+		}
+		#important{
+			position: absolute;
+			color: green;
+			top: 40px;
+			left: 900px;
+		}
+		#list{
+			position: absolute;
+			top: 120px;
+			color: green;
+			font-size: 22px;
+			left: 900px;
+		}
+	</style>
+</head>
+<body bgcolor="#000">
+	<div style="width: 400px; height: 500px; position: relative; margin: 0 auto; border: solid; background-color: #fff; top: 50px;">
+		<canvas width="400" height="500" id="canvas"></canvas>
+	</div>
+
+	<embed src="sounds/music.mp3" hidden="true" loop="infinite" autostart="true">
+	<div>
+		<h1 id="h1">Criado por: Ascanio Sávio</h1>
+		<h2 id="h2">Eae Maria e Mathaus, só voces vão ver esse jogo(eu acho)</h2>
+		<h2 id="h3">Obrigado pela humildade</h2>
+		<img id="photo" src="img/game.jpg">
+		<h2 id="h4">É um jogo simples, mas espero que gostem xD</h2>
+		<h1 id="important">Importante:</h1>
+		<ul id="list">
+			<li>Coloque o som entre 60 e 70%</li>
+			<li>Se os aliens chegarem à terra voce perde</li>
+			<li>Se os aliens colidirem com sua nave voce perde</li>
+			<li>Voce ganha se conseguir matar 70 inimigos</li>
+			<li>Acuracy é o aproveitamento percentual</li>
+			<li>Boa sorte!</li>
+		</ul>
+	</div>
+
+	<script src="js/objects.js"></script>
+	<script src="js/collision.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
